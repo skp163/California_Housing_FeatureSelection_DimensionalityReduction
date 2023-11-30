@@ -5,7 +5,7 @@
 ## Overview
 I am using different methods of feature selection and dimensionality reduction on California housing dataset to achive most optimized result. 
 
-**Data Set**: <br/>
+## Data Set: <br/>
 [sklearn.datasets.fetch_california_housing](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html)
 
 ***Number of Features : 8*** <br/>
