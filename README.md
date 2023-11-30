@@ -20,4 +20,11 @@ I am using different methods of feature selection and dimensionality reduction o
 3. PCA
 
 
+### 1. Filterbased Method
+        - Using all Features Method:
+            Used linear regression for predicting price of the houses in California. In this method< I have considered all the available features in the model.
+            Result:
 
+            |R2_Error |  MSE   |
+            |---------|--------|
+            | 0.62909 | 0.49887|
