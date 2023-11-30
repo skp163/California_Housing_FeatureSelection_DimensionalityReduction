@@ -33,17 +33,30 @@ I am using different methods of feature selection and dimensionality reduction o
             |---------|--------|
             | 0.62909 | 0.49887|
 
-        - Correlation Method:
         
 <img src="https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/blob/main/Assets/Correlation_Matrix1.png" width="600" height="400" />
         
-            Used Pearson’s Correlation to check how independent varibles are correlated with each other.
-            If 2 or more independent features are highly correlated then they can be considered
-            as duplicate features and can be dropped. Hence in this case I find 'AveBedrms' and 'AveRooms'
-            is highly correlated from the Correlation Matrix. We need to drop one of the. Hence I am
-            dropping 'AveRooms'. And I observed little improvement in my r2_error score.
+         - Correlation Method:
+           Used Pearson’s Correlation to check how independent varibles are correlated with each other.
+           If 2 or more independent features are highly correlated then they can be considered
+           as duplicate features and can be dropped. Hence in this case I find 'AveBedrms' and 'AveRooms'
+           is highly correlated from the Correlation Matrix. We need to drop one of the. Hence I am
+           dropping 'AveRooms'. And I observed little improvement in my r2_error score.
 
-            Our new reslut is:
+           Our new reslut is:
             |R2_Error |  MSE   |
             |---------|--------|
             | 0.58185 | 0.55992|
+
+        - Wrapper Based Methods:
+           
+          In wrapper methods, I try to use a subset of features and train a model using them. 
+          Based on the inferences that I draw from the previous model, I decide to add or remove 
+          features from the privious subset.
+        - Sequential Feature Selection
+        Our new reslut is:
+            |R2_Error |  MSE   |
+            |---------|--------|
+            | 0.55475 | 0.61173|
+
+### 2. Mutual Information Method
