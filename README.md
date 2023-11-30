@@ -43,7 +43,7 @@ I am using different methods of feature selection and dimensionality reduction o
            is highly correlated from the Correlation Matrix. We need to drop one of the. Hence I am
            dropping 'AveRooms'. And I observed little improvement in my r2_error score.
 
-           Our new reslut is:
+           New reslut is:
             |R2_Error |  MSE   |
             |---------|--------|
             | 0.58185 | 0.55992|
@@ -54,9 +54,23 @@ I am using different methods of feature selection and dimensionality reduction o
           Based on the inferences that I draw from the previous model, I decide to add or remove 
           features from the privious subset.
         - Sequential Feature Selection
-        Our new reslut is:
+           New reslut is:
             |R2_Error |  MSE   |
             |---------|--------|
             | 0.55475 | 0.61173|
 
-### 2. Mutual Information Method
+### 2. Mutual Information Method:
+        Mutual Information method is typically information gain methods. Mutual information is 
+        calculated between two variables and measures the reduction in uncertainty for one 
+        variable given a known value of the other variable.
+
+        New reslut is:
+        |R2_Error |  MSE   |
+        |---------|--------|
+        | 0.58115 | 0.56156|
+
+### #. PCA
+<img src="https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/blob/main/Assets/Regresor_Line_calibration.gif" width="200" height="200" />
+
+
+    
