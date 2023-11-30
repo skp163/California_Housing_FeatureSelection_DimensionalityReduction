@@ -11,7 +11,7 @@ I am using different methods of feature selection and dimensionality reduction o
 ***Number of Features : 8*** <br/>
 ***Sample size: 20640***
 
-## Methods Used:
+### Methods Used:
 1. Filterbased Method
     - Using all Features Method
     - Correlation Method
