@@ -21,6 +21,9 @@ I am using different methods of feature selection and dimensionality reduction o
 
 
 ### 1. Filterbased Method
+
+<img src="https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/blob/main/Assets/Filter_1.png" width="100" height="40" />
+
         - Using all Features Method:
             Used linear regression for predicting price of the houses in California. In this method< I have considered all the available features in the model.
             Result:
@@ -28,3 +31,6 @@ I am using different methods of feature selection and dimensionality reduction o
             |R2_Error |  MSE   |
             |---------|--------|
             | 0.62909 | 0.49887|
+
+        - Correlation Method:
+            Used 
