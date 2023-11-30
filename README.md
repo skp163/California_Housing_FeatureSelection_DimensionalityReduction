@@ -22,7 +22,7 @@ I am using different methods of feature selection and dimensionality reduction o
 
 ### 1. Filterbased Method
 
-<img src="https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/blob/main/Assets/Filter_1.png" width="300" height="70" />
+<img src="https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/blob/main/Assets/Filter_1.png" width="600" height="70" />
 
         - Using all Features Method:
             Used linear regression for predicting price of the houses in California. In this method< I have considered all the available features in the model.
