@@ -70,7 +70,7 @@ I am using different methods of feature selection and dimensionality reduction o
         | 0.58115 | 0.56156|
 
 ### #. PCA
-<img src="https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/blob/main/Assets/Regresor_Line_calibration.gif" width="200" height="200" />
+<img src="https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/blob/main/Assets/Regresor_Line_calibration.gif" width="600" height="300" />
 
 
     
