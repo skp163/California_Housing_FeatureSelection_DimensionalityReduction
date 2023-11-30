@@ -35,7 +35,7 @@ I am using different methods of feature selection and dimensionality reduction o
 
         - Correlation Method:
         
-<img src="https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/blob/main/Assets/Correlation_Matrix1.png" width="600" height="600" />
+<img src="https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/blob/main/Assets/Correlation_Matrix1.png" width="600" height="400" />
         
             Used Pearson’s Correlation to check how independent varibles are correlated with each other.
             If 2 or more independent features are highly correlated then they can be considered
