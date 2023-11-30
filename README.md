@@ -33,11 +33,11 @@ I am using different methods of feature selection and dimensionality reduction o
             | 0.62909 | 0.49887|
 
         - Correlation Method:
-            Used Pearson’s Correlation to check how independent varibles are correlated with each <br/> 
-            other. If 2 or more independent features are highly correlated then they can be considered <br/>
-            as duplicate features and can be dropped. Hence in this case I find 'AveBedrms' and 'AveRooms' <br/>
-             is highly correlated from the Correlation Matrix. We need to drop one of the. Hence I am <br/>
-             dropping 'AveRooms'. And I observed little improvement in my r2_error score.
+            Used Pearson’s Correlation to check how independent varibles are correlated with each other.
+            If 2 or more independent features are highly correlated then they can be considered
+            as duplicate features and can be dropped. Hence in this case I find 'AveBedrms' and 'AveRooms'
+            is highly correlated from the Correlation Matrix. We need to drop one of the. Hence I am
+            dropping 'AveRooms'. And I observed little improvement in my r2_error score.
 
             Our new reslut is:
             |R2_Error |  MSE   |
