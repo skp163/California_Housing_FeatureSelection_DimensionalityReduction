@@ -34,6 +34,9 @@ I am using different methods of feature selection and dimensionality reduction o
             | 0.62909 | 0.49887|
 
         - Correlation Method:
+        
+            ![Features Correlation](https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/blob/main/Assets/Correlation_Matrix1.png)
+        
             Used Pearson’s Correlation to check how independent varibles are correlated with each other.
             If 2 or more independent features are highly correlated then they can be considered
             as duplicate features and can be dropped. Hence in this case I find 'AveBedrms' and 'AveRooms'
