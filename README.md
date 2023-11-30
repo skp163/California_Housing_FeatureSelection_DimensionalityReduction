@@ -69,7 +69,7 @@ I am using different methods of feature selection and dimensionality reduction o
         |---------|--------|
         | 0.58115 | 0.56156|
 
-### #. PCA
+### 3. PCA
 <img src="https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/blob/main/Assets/Regresor_Line_calibration.gif" width="800" height="350" />
 
         PCA is an unsupervised linear transformation technique. In this technique, we don't selct features instead we transform the features space intoa lower-dimensional space while preserving maximum variance. The main drawback of this feature is you don’t really know what the new features represent, so although you gain in dimensionality reduction you definitely lose on the interpretability.
