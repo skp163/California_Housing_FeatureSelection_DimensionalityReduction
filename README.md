@@ -72,7 +72,11 @@ I am using different methods of feature selection and dimensionality reduction o
 ### 3. PCA
 <img src="https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/blob/main/Assets/Regresor_Line_calibration.gif" width="800" height="350" />
 
-        PCA is an unsupervised linear transformation technique. In this technique, we don't selct features instead we transform the features space intoa lower-dimensional space while preserving maximum variance. The main drawback of this feature is you don’t really know what the new features represent, so although you gain in dimensionality reduction you definitely lose on the interpretability.
+        PCA is an unsupervised linear transformation technique. In this technique, we don't 
+        selct features instead we transform the features space intoa lower-dimensional space 
+        while preserving maximum variance. The main drawback of this feature is you don’t 
+        really know what the new features represent, so although you gain in dimensionality 
+        reduction you definitely lose on the interpretability.
 
         New reslut is:
         |R2_Error |  MSE   |
@@ -85,7 +89,7 @@ I am using different methods of feature selection and dimensionality reduction o
     
 
 
-## References:
+## Reference Link:
 https://medium.com/@mayureshrpalav/principal-component-analysis-feature-extraction-technique-3f480d7b9697
 https://aegis4048.github.io/mutiple_linear_regression_and_visualization_in_python
 https://towardsdatascience.com/feature-selection-techniques-in-regression-model-26878fe0e24e
