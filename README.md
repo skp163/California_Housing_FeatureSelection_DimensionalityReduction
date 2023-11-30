@@ -82,5 +82,14 @@ I am using different methods of feature selection and dimensionality reduction o
 
         Note : PCA can be used in non-continious feature but it may not be meaningfull in categorical environment.
 
+    
 
+
+## References:
+https://medium.com/@mayureshrpalav/principal-component-analysis-feature-extraction-technique-3f480d7b9697
+https://aegis4048.github.io/mutiple_linear_regression_and_visualization_in_python
+https://towardsdatascience.com/feature-selection-techniques-in-regression-model-26878fe0e24e
+https://medium.com/mlearning-ai/short-python-code-for-backward-elimination-with-detailed-explanation-52894a9a7880
+https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/tree/main
+https://machinelearningmastery.com/feature-selection-for-regression-data/
     
