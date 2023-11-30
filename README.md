@@ -72,5 +72,15 @@ I am using different methods of feature selection and dimensionality reduction o
 ### #. PCA
 <img src="https://github.com/skp163/California_Housing_FeatureSelection_DimensionalityReduction/blob/main/Assets/Regresor_Line_calibration.gif" width="800" height="350" />
 
+        PCA is an unsupervised linear transformation technique. In this technique, we don't selct features instead we transform the features space intoa lower-dimensional space while preserving maximum variance. The main drawback of this feature is you don’t really know what the new features represent, so although you gain in dimensionality reduction you definitely lose on the interpretability.
+
+        New reslut is:
+        |R2_Error |  MSE   |
+        |---------|--------|
+        | 0.01250 | 1.31898|
+
+
+        Note : PCA can be used in non-continious feature but it may not be meaningfull in categorical environment.
+
 
     
